@@ -1,70 +1,79 @@
-# Simple Web Application
+# Student Contribution
 
-A minimal [Python Flask](https://flask.palletsprojects.com/) web application used as the demo app in the [KodeKloud Docker for Beginners](https://kodekloud.com/courses/docker-for-the-absolute-beginner-hands-on/) course.
+## Developer Information
 
-The app exposes two routes:
+- Name: Jennifer Ailín Medina Hernández
+- University: Universidad Tecnológica del Norte de Guanajuato
+- Date: Junio 2026
 
-| Route | Response |
-|---|---|
-| `/` | `Welcome!` |
-| `/how-are-you` | `I am good, how about you?` |
+## Proposed Improvements
 
-## Run manually (without Docker)
+1. Mejorar la documentación para nuevos colaboradores.
+2. Agregar ejemplos de despliegue en distintos entornos.
+3. Incluir diagramas y guías de desarrollo.
 
-These steps assume a fresh machine.
+## Observations
 
-1. Select an OS - Ubuntu
+Este proyecto es una aplicación web sencilla desarrollada con Flask. Su estructura minimalista facilita el aprendizaje de conceptos básicos de desarrollo web y contenedores Docker.
 
-2. Update the package index:
+## Project Strengths
 
-   ```bash
-   sudo apt-get update
-   ```
+1. Estructura simple y fácil de comprender.
+2. Implementación ligera y de rápida ejecución.
+3. Incluye soporte para Docker.
+4. Es ideal para fines educativos y de aprendizaje.
+5. Facilita la comprensión de los fundamentos de Flask.
 
-3. Install Flask (this also pulls in Python 3):
+## Improvement Opportunities
 
-   ```bash
-   sudo apt-get install -y python3-flask
-   ```
+1. Incorporar pruebas unitarias automatizadas.
+2. Agregar documentación técnica más detallada.
+3. Implementar manejo de errores más robusto.
+4. Añadir integración continua (CI/CD).
+5. Incluir una guía de contribución para desarrolladores.
 
-4. Set the Flask app environment variable:
+## Technologies Used
 
-   ```bash
-   export FLASK_APP=app.py
-   ```
+| Tecnología | Propósito                             |
+| ---------- | ------------------------------------- |
+| Python     | Lenguaje de programación principal    |
+| Flask      | Framework web                         |
+| Docker     | Contenerización de la aplicación      |
+| Git        | Control de versiones                  |
+| GitHub     | Colaboración y alojamiento del código |
+| Ubuntu     | Sistema operativo base                |
 
-5. Start the application:
+## System Architecture
 
-   ```bash
-   flask run --host=0.0.0.0
-   ```
-
-Then open `http://localhost:5000` and `http://localhost:5000/how-are-you` in a browser.
-
-## Run with Docker
-
-```bash
-git clone https://github.com/mmumshad/simple-webapp-flask.git
-cd simple-webapp-flask
-docker build -t simple-webapp-flask .
-docker run -p 5000:5000 simple-webapp-flask
+```mermaid
+graph LR
+A[Cliente Web] --> B[Aplicación Flask]
+B --> C[Rutas Web]
+B --> D[Contenedor Docker]
 ```
 
-Then open `http://localhost:5000` and `http://localhost:5000/how-are-you` in a browser.
+## Functional Requirements
 
-## The Dockerfile
+RF-01 El sistema deberá mostrar un mensaje de bienvenida en la página principal.
 
-```dockerfile
-FROM ubuntu
+RF-02 El sistema deberá proporcionar una ruta adicional para interacción con el usuario.
 
-RUN apt-get update
-RUN apt-get install -y python3-flask
+RF-03 El sistema deberá responder a solicitudes HTTP GET.
 
-COPY app.py /opt/app.py
+RF-04 El sistema deberá ejecutarse mediante el framework Flask.
 
-ENV FLASK_APP=/opt/app.py
+RF-05 El sistema deberá poder desplegarse utilizando Docker.
 
-ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]
-```
+RF-06 El sistema deberá exponer el servicio mediante el puerto 5000.
 
-Each instruction mirrors one of the manual steps above — making it easy to see how a Dockerfile is just an automated install script.
+RF-07 El sistema deberá permitir el acceso desde un navegador web.
+
+RF-08 El sistema deberá generar respuestas de texto para las rutas configuradas.
+
+RF-09 El sistema deberá ejecutarse en entornos Linux compatibles.
+
+RF-10 El sistema deberá permitir futuras extensiones funcionales.
+
+## Team Members
+
+- Jennifer Ailín Medina Hernández
