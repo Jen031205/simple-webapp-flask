@@ -77,3 +77,84 @@ RF-10 El sistema deberá permitir futuras extensiones funcionales.
 ## Team Members
 
 - Jennifer Ailín Medina Hernández
+
+
+# Evidencias de la Práctica 03
+
+## Evidencia 1. Fork creado
+
+Se realizó correctamente el Fork del repositorio original hacia mi cuenta personal de GitHub.
+
+**Captura:**
+
+![Evidencia 1](<img width="921" height="447" alt="image" src="https://github.com/user-attachments/assets/22215c55-e441-40ba-bf6d-8416ea9092a8" />
+)
+
+---
+
+## Evidencia 2. Configuración del repositorio remoto
+
+Se configuró correctamente el repositorio original como upstream y se verificó mediante el comando:
+
+```bash
+git remote -v
+```
+
+**Captura:**
+
+![Evidencia 2](<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/9cff4222-ff04-40f3-b78a-b305cde4011b" />
+)
+
+---
+
+## Evidencia 3. Creación de la rama de desarrollo
+
+Se creó la rama de trabajo `dev` para realizar las modificaciones solicitadas.
+
+Comando utilizado:
+
+```bash
+git branch
+```
+
+**Captura:**
+
+![Evidencia 3](<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/d07b32ce-42ca-4c1a-b303-734824701485" />
+)
+
+---
+
+## Evidencia 4. Registro de cambios mediante commit
+
+Se registraron los cambios realizados en el archivo README.md mediante un commit.
+
+Comando utilizado:
+
+```bash
+git log --oneline
+```
+
+**Captura:**
+
+![Evidencia 4](<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/31b76420-6b78-4459-8765-3f389720aa18" />
+)
+
+---
+
+## Evidencia 5. Pull Request creado
+
+Se generó correctamente un Pull Request desde la rama `dev` de mi Fork hacia la rama principal del repositorio original.
+
+**Captura:**
+
+![Evidencia 5](<img width="1881" height="843" alt="image" src="https://github.com/user-attachments/assets/3b75f8ac-95be-4c77-8f09-c106fd4f51a4" />
+)
+
+---
+
+## Evidencia 6. URL del Pull Request
+
+URL del Pull Request generado:
+
+```text
+https://github.com/Jen031205/simple-webapp-flask/pull/1
