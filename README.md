@@ -101,9 +101,8 @@ git remote -v
 ```
 
 **Captura:**
+<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/9cff4222-ff04-40f3-b78a-b305cde4011b" />
 
-![Evidencia 2](<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/9cff4222-ff04-40f3-b78a-b305cde4011b" />
-)
 
 ---
 
@@ -119,8 +118,8 @@ git branch
 
 **Captura:**
 
-![Evidencia 3](<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/d07b32ce-42ca-4c1a-b303-734824701485" />
-)
+<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/d07b32ce-42ca-4c1a-b303-734824701485" />
+
 
 ---
 
@@ -136,8 +135,8 @@ git log --oneline
 
 **Captura:**
 
-![Evidencia 4](<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/31b76420-6b78-4459-8765-3f389720aa18" />
-)
+<img width="921" height="518" alt="image" src="https://github.com/user-attachments/assets/31b76420-6b78-4459-8765-3f389720aa18" />
+
 
 ---
 
@@ -147,8 +146,7 @@ Se generó correctamente un Pull Request desde la rama `dev` de mi Fork hacia la
 
 **Captura:**
 
-![Evidencia 5](<img width="1881" height="843" alt="image" src="https://github.com/user-attachments/assets/3b75f8ac-95be-4c77-8f09-c106fd4f51a4" />
-)
+<img width="1881" height="843" alt="image" src="https://github.com/user-attachments/assets/3b75f8ac-95be-4c77-8f09-c106fd4f51a4" />
 
 ---
 
